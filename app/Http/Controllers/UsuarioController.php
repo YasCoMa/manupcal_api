@@ -111,7 +111,7 @@ class UsuarioController extends Controller
 
         try {
             $data = [
-                'secret' => '6Ldn5rUhAAAAAFIIK7WGRayxM1KUw7pio3hQaqJ8',
+                'secret' => env('recaptcha_secret'),
                 'response' => $credentials['codigo']
             ];
 

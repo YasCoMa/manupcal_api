@@ -23,7 +23,7 @@ This systems follows the following class diagram:
 * Configuring database and dependencies: 
 	1. ````composer install````
 	2. ````mv _.env .env````
-	3. Change the variables DB_DATABASE, DB_USERNAME and DB_PASSWORD according to your database settings in the .env file
+	3. Change the variables DB_DATABASE, DB_USERNAME and DB_PASSWORD according to your database settings, and the recaptcha secret key (recaptcha_secret) to prevent robots sending form requests in the login in the .env file
 	4. ````php artisan migrate:refresh --seed````
 
 * Running the api
