@@ -16,16 +16,16 @@ class ClienteSeeder extends Seeder
     {
         Cliente::create([
             'id' => 1,
-            'nome' => 'MTW',
+            'nome' => 'SoftSys',
             'street' => [
-                "endereco" => "Rua joel reis, s/n",
-                "bairro" => "centro",
-                "cidade" => "Cardoso Moreira",
-                "cep" => "28.180-000",
+                "endereco" => "Rua alice maria, s/n",
+                "bairro" => "Centro",
+                "cidade" => "Ouro Negro",
+                "cep" => "22.222-000",
                 "estado" => "Rio de Janeiro"
             ],
             "emails" => [
-                "andre@mtw.com.br"
+                "joao@softsys.com.br"
             ],
             "foto_brazao" => "",
             "maps" => "",
@@ -33,7 +33,7 @@ class ClienteSeeder extends Seeder
             "telefones" => [
                 [
                     "tipo" => "telefone",
-                    "numero" => "(22)8888-0987"
+                    "numero" => "(24) 98888-9999"
                 ]
             ],
             "exibir_menu_vertical" => false
